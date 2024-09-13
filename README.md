@@ -1,8 +1,8 @@
-# Hello World in Java
-This example project is written in Java and tested automatically. 
+# Java recursion practice
+
 
 ### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green. Your program should output "Hello world"
+Complete the 4 recursive methods within RecursionPractice.java .
 
 ### Setup command
 N/A
@@ -11,4 +11,6 @@ N/A
 `gradle test`
 
 ### Notes
-- Have fun! 
+For all recursive problems, you need to figure out two things - 
+1) How can I use the function I have to make progress on the problem? How can my function make the problem smalle?
+2) What is my base case? When can I NOT make a recursive call and stop calculating?
